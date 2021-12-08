@@ -1,0 +1,19 @@
+﻿Main area: All Elements > Roslyn Text Editor MEF Items
+Line Number: Line Number
+Class name: class name
+if / return / throw : keyword - control
+local variable names : local name
+using / namespace/ public / class : Text Editor Language Service Items > Keyword
+()/{}/[]/; : punctuation
+method: method name
+xml comment text : xml doc comment - text
+xml comment tag text : xml doc comment - name
+xml comment punctuation : xml doc comment - delimiter
+extension method : extension method name
+Action / Func : delegate name
+class name : class name
+
+Text Editor Language Service Items
+string: String
+number: Number
+comment: Comment
