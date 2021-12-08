@@ -8,6 +8,8 @@ namespace Goldrush
 {
     internal class TestFile
     {
+        string instance;
+        string _instance;
         /// <summary>
         /// Comment
         /// </summary>
@@ -21,7 +23,8 @@ namespace Goldrush
             var p = instance3.Property;
             var f = instance3.field;
             instance.Method();
-            new UnrelatedType().ExtensionMethod(); // Comment here
+            new UnrelatedType().ExtensionMethod(); // Comment
+            this.instance = this._instance;
 
             Action<string> lambda = (string arg) => { arg.ToString(); };
             Func<string, string> lambda2 = s => s;
