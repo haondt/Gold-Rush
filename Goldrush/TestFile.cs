@@ -15,6 +15,11 @@ namespace Goldrush
         /// </summary>
         public TestFile()
         {
+            #region TEST
+#if FLAG
+            string s = "foo";
+#endif
+            #endregion
             // comment
             var instance = new Implementation<string>() as IInterface<string>;
             var instance2 = new Implementation<UnrelatedType>() as IInterface<UnrelatedType>;
