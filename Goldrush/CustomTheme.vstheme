@@ -1,5 +1,5 @@
 ﻿<Themes>
-  <Theme Name="Goldrush (1)" GUID="{ca4e0dc7-f382-40f8-9975-e48c6ec82631}" BaseGUID="{1ded0138-47ce-435e-84ef-9ec1f439b749}">
+  <Theme Name="Goldrush (3)" GUID="{fc2c18c2-52c2-417f-b8e8-4d56cb34251b}" BaseGUID="{1ded0138-47ce-435e-84ef-9ec1f439b749}">
     <Category Name="ACDCOverview" GUID="{c8887ac6-3c60-4209-9d69-8f4c12a60044}">
       <Color Name="Body">
         <Background Type="CT_RAW" Source="FF222224" />
@@ -5449,7 +5449,7 @@
         <Foreground Type="CT_RAW" Source="FFC2B77D" />
       </Color>
       <Color Name="MarkerFormatDefinition/HighlightedReference">
-        <Background Type="CT_RAW" Source="FF676221" />
+        <Background Type="CT_RAW" Source="FF555139" />
         <Foreground Type="CT_RAW" Source="FFADC0D3" />
       </Color>
       <Color Name="MarkerFormatDefinition/FindHighlight">
@@ -5466,7 +5466,7 @@
       </Color>
       <Color Name="Preprocessor Keyword">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF5D5E51" />
+        <Foreground Type="CT_RAW" Source="FFD7DC68" />
       </Color>
       <Color Name="Operator">
         <Background Type="CT_AUTOMATIC" Source="00000000" />
@@ -5757,7 +5757,7 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="MarkerFormatDefinition/HighlightedDefinition">
-        <Background Type="CT_RAW" Source="FF48830E" />
+        <Background Type="CT_RAW" Source="FF2F2935" />
         <Foreground Type="CT_RAW" Source="FFC0D3AD" />
       </Color>
       <Color Name="RenameTrackingTag">
@@ -5789,8 +5789,8 @@
         <Foreground Type="CT_RAW" Source="FF008A00" />
       </Color>
       <Color Name="RoslynRenameFieldBackgroundAndBorderTag">
-        <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_RAW" Source="FF1E1E1E" />
+        <Background Type="CT_RAW" Source="FF2D2D30" />
+        <Foreground Type="CT_RAW" Source="FF2D2D30" />
       </Color>
       <Color Name="string - escape character">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -5986,7 +5986,7 @@
       </Color>
       <Color Name="Inline Rename Field Text">
         <Background Type="CT_INVALID" Source="00000000" />
-        <Foreground Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_RAW" Source="FF0CF8FF" />
       </Color>
       <Color Name="record class name">
         <Background Type="CT_INVALID" Source="00000000" />
@@ -6117,6 +6117,10 @@
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
       <Color Name="U-SQL - ClassName">
+        <Background Type="CT_INVALID" Source="00000000" />
+        <Foreground Type="CT_INVALID" Source="00000000" />
+      </Color>
+      <Color Name="U-SQL - Keyword">
         <Background Type="CT_INVALID" Source="00000000" />
         <Foreground Type="CT_INVALID" Source="00000000" />
       </Color>
